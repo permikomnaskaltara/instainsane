@@ -1,0 +1,24 @@
+to 
+
+start
+copy the Instainsane url
+download the Zip file
+open your termux or kali terminal
+properly install git
+then
+git clone https://github.com/permikomnaskaltara/instainsane.git
+then it will start cloning into Instainsane
+moreso you will be free from inputting your Username and password
+because you have downloaded the Zip file
+then change your directory to Instainsane
+
+ls
+cd instainsane
+
+ls
+chmod +x ./install.sh
+chmod +x ./instainsane.sh
+to install the requirements
+./install.sh
+./instainsane.sh
+boom,you are in the hacking WORLD
